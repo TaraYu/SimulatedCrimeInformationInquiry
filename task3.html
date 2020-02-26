@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_eb718715600d41e7bd5413b1c8866aeb {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_eb718715600d41e7bd5413b1c8866aeb" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_eb718715600d41e7bd5413b1c8866aeb = L.map(
+        'map_eb718715600d41e7bd5413b1c8866aeb', {
+        center: [53.5444, -113.323],
+        zoom: 11,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_1f4cbb1f6f52456da98682aca8b07635 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_eb718715600d41e7bd5413b1c8866aeb);
+    
+
+            var circle_e75cc994994a4d0094b47eee8a3cb165 = L.circle(
+                [53.54903594, -113.478967],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 94,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_eb718715600d41e7bd5413b1c8866aeb);
+            
+    
+            var popup_2d8169983ed743928a4ca05f2701ea03 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cfc472ba144a440a87d498d2ac1541ff = $(`<div id="html_cfc472ba144a440a87d498d2ac1541ff" style="width: 100.0%; height: 100.0%;">BOYLE STREET <br> Population: 94</div>`)[0];
+                popup_2d8169983ed743928a4ca05f2701ea03.setContent(html_cfc472ba144a440a87d498d2ac1541ff);
+            
+
+            circle_e75cc994994a4d0094b47eee8a3cb165.bindPopup(popup_2d8169983ed743928a4ca05f2701ea03)
+            ;
+
+            
+        
+    
+
+            var circle_8e45b15b55474f358ac3ac1532f8992e = L.circle(
+                [53.54189905, -113.5004229],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 75,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_eb718715600d41e7bd5413b1c8866aeb);
+            
+    
+            var popup_974d7e37e0744d479855b95fbd6e8e76 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e4eab2af2b5540f2bb21837e0c96ac22 = $(`<div id="html_e4eab2af2b5540f2bb21837e0c96ac22" style="width: 100.0%; height: 100.0%;">DOWNTOWN <br> Population: 75</div>`)[0];
+                popup_974d7e37e0744d479855b95fbd6e8e76.setContent(html_e4eab2af2b5540f2bb21837e0c96ac22);
+            
+
+            circle_8e45b15b55474f358ac3ac1532f8992e.bindPopup(popup_974d7e37e0744d479855b95fbd6e8e76)
+            ;
+
+            
+        
+    
+
+            var circle_ff1d4548a1cf4a358be18fd7a23b9902 = L.circle(
+                [53.55644072, -113.4820475],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 68,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_eb718715600d41e7bd5413b1c8866aeb);
+            
+    
+            var popup_03c30ea0cf4b4abcb2c2edd0fcc5fd2a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0ecaeb569b954d439a8a246e55f1dd69 = $(`<div id="html_0ecaeb569b954d439a8a246e55f1dd69" style="width: 100.0%; height: 100.0%;">MCCAULEY <br> Population: 68</div>`)[0];
+                popup_03c30ea0cf4b4abcb2c2edd0fcc5fd2a.setContent(html_0ecaeb569b954d439a8a246e55f1dd69);
+            
+
+            circle_ff1d4548a1cf4a358be18fd7a23b9902.bindPopup(popup_03c30ea0cf4b4abcb2c2edd0fcc5fd2a)
+            ;
+
+            
+        
+    
+
+            var circle_7f7b9189af0745328692ebdd0281f869 = L.circle(
+                [53.55375321, -113.5029906],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 45,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_eb718715600d41e7bd5413b1c8866aeb);
+            
+    
+            var popup_2cd963a7986f4d80a6dde0ae29c34bc7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_657707c1fbee4764ae3de303bd934a54 = $(`<div id="html_657707c1fbee4764ae3de303bd934a54" style="width: 100.0%; height: 100.0%;">CENTRAL MCDOUGALL <br> Population: 45</div>`)[0];
+                popup_2cd963a7986f4d80a6dde0ae29c34bc7.setContent(html_657707c1fbee4764ae3de303bd934a54);
+            
+
+            circle_7f7b9189af0745328692ebdd0281f869.bindPopup(popup_2cd963a7986f4d80a6dde0ae29c34bc7)
+            ;
+
+            
+        
+    
+
+            var circle_b222fd5507e24b32a23d324c8c098a17 = L.circle(
+                [53.54232541, -113.5216263],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 43,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_eb718715600d41e7bd5413b1c8866aeb);
+            
+    
+            var popup_97ad6baee5164d36b968286aedc0ee6d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5c90709eb83d4828ac4711524f488b20 = $(`<div id="html_5c90709eb83d4828ac4711524f488b20" style="width: 100.0%; height: 100.0%;">OLIVER <br> Population: 43</div>`)[0];
+                popup_97ad6baee5164d36b968286aedc0ee6d.setContent(html_5c90709eb83d4828ac4711524f488b20);
+            
+
+            circle_b222fd5507e24b32a23d324c8c098a17.bindPopup(popup_97ad6baee5164d36b968286aedc0ee6d)
+            ;
+
+            
+        
+</script>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_8a00db783212474c9ef2dc161f4bf38e {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_8a00db783212474c9ef2dc161f4bf38e" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_8a00db783212474c9ef2dc161f4bf38e = L.map(
+        'map_8a00db783212474c9ef2dc161f4bf38e', {
+        center: [53.5444, -113.323],
+        zoom: 11,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_a63cb85cc86f487ea78727da42e1882b = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_8a00db783212474c9ef2dc161f4bf38e);
+    
+
+            var circle_4acb897dc802400da9241d2a1eab5068 = L.circle(
+                [53.50807597, -113.4161185],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_8a00db783212474c9ef2dc161f4bf38e);
+            
+    
+            var popup_76b052bbdd274b6386c4424bef9a9d59 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_87b0f7d9d7ca4c84a386a8261249f750 = $(`<div id="html_87b0f7d9d7ca4c84a386a8261249f750" style="width: 100.0%; height: 100.0%;">WEIR INDUSTRIAL<br>Theft From VehicleTheft Of Vehicle<br>0.8</div>`)[0];
+                popup_76b052bbdd274b6386c4424bef9a9d59.setContent(html_87b0f7d9d7ca4c84a386a8261249f750);
+            
+
+            circle_4acb897dc802400da9241d2a1eab5068.bindPopup(popup_76b052bbdd274b6386c4424bef9a9d59)
+            ;
+
+            
+        
+    
+
+            var circle_bc991c3782334eb09a2915d6f2160f00 = L.circle(
+                [53.56947823, -113.7006312],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 426.4705882352941,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_8a00db783212474c9ef2dc161f4bf38e);
+            
+    
+            var popup_9ccf4c4ce352446688fb70f76072948c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3b185cd0ea38409f89bfeb5a42a9ae56 = $(`<div id="html_3b185cd0ea38409f89bfeb5a42a9ae56" style="width: 100.0%; height: 100.0%;">WINTERBURN INDUSTRIAL AREA WEST<br>Break and Enter<br>0.4264705882352941</div>`)[0];
+                popup_9ccf4c4ce352446688fb70f76072948c.setContent(html_3b185cd0ea38409f89bfeb5a42a9ae56);
+            
+
+            circle_bc991c3782334eb09a2915d6f2160f00.bindPopup(popup_9ccf4c4ce352446688fb70f76072948c)
+            ;
+
+            
+        
+    
+
+            var circle_48a7fa077fa84d2b9e497f7864b57b49 = L.circle(
+                [53.47125013, -113.6717408],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 121.73913043478261,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_8a00db783212474c9ef2dc161f4bf38e);
+            
+    
+            var popup_7d1aa02099f844469b0021902621885c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9a7688e6c03f48a6a47b049f34efafc4 = $(`<div id="html_9a7688e6c03f48a6a47b049f34efafc4" style="width: 100.0%; height: 100.0%;">EDGEMONT<br>Break and Enter<br>0.12173913043478261</div>`)[0];
+                popup_7d1aa02099f844469b0021902621885c.setContent(html_9a7688e6c03f48a6a47b049f34efafc4);
+            
+
+            circle_48a7fa077fa84d2b9e497f7864b57b49.bindPopup(popup_7d1aa02099f844469b0021902621885c)
+            ;
+
+            
+        
+    
+
+            var circle_d4976c2cda434a7e8e3f3422f68dab8a = L.circle(
+                [53.6436997, -113.5571107],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 114.6545178435839,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_8a00db783212474c9ef2dc161f4bf38e);
+            
+    
+            var popup_f1ec815cc12740e5bfa07c087af9ee58 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_83b7f65ec16344a9913ea2974a41d5f8 = $(`<div id="html_83b7f65ec16344a9913ea2974a41d5f8" style="width: 100.0%; height: 100.0%;">GOODRIDGE CORNERS<br>Assault<br>0.11465451784358391</div>`)[0];
+                popup_f1ec815cc12740e5bfa07c087af9ee58.setContent(html_83b7f65ec16344a9913ea2974a41d5f8);
+            
+
+            circle_d4976c2cda434a7e8e3f3422f68dab8a.bindPopup(popup_f1ec815cc12740e5bfa07c087af9ee58)
+            ;
+
+            
+        
+    
+
+            var circle_11c4618aaf5742029337c2c740474522 = L.circle(
+                [53.60065017, -113.5535508],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 105.16605166051662,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_8a00db783212474c9ef2dc161f4bf38e);
+            
+    
+            var popup_c6711c3e8c1848229dbeeca2413dfa39 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_24fbdfd82477418fb394ab1ba5ecaa7e = $(`<div id="html_24fbdfd82477418fb394ab1ba5ecaa7e" style="width: 100.0%; height: 100.0%;">PEMBINA<br>Theft From Vehicle<br>0.10516605166051661</div>`)[0];
+                popup_c6711c3e8c1848229dbeeca2413dfa39.setContent(html_24fbdfd82477418fb394ab1ba5ecaa7e);
+            
+
+            circle_11c4618aaf5742029337c2c740474522.bindPopup(popup_c6711c3e8c1848229dbeeca2413dfa39)
+            ;
+
+            
+        
+</script>
